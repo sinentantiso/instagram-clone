@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="assets/css/flickity.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- link slick css -->
+    <!-- <link rel="stylesheet" href="assets/css/flickity.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+    <title>Instagram</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="navbar">
+            <img class="brand" src="assets/img/logo.PNG" alt="">
+            <div class="wrap-input">
+                <input type="text" placeholder="search">
+                <img class="icon-search" src="assets/img/6.png" alt="">
+                <!-- <img class="icon-close" src="assets/img/10.png" alt=""> -->
+            </div>
+            <div class="nav-item">
+                <img src="assets/img/home.png" alt="">
+                <img src="assets/img/explore.png" alt="">
+                <img src="assets/img/send.png" alt="">
+                <div class="wrap-item-like">
+                    <div class="wrap-like">
+                        <img src="assets/img/like.png" alt="" onclick="menuLike()">
+                        <div id="triangle-up-like"></div>
+
+                        <div class="menu-like" id="menu-like">
+                            <div class="item-menu">
+                                <div style="display: flex; align-items: center;">
+                                    <div class="profile">
+                                        <img src="assets/img/profile-pic.png" alt="">
+                                    </div>
+                                    <span>
+                                        <span style="font-weight: bold;">Wete_Sicwebu</span>
+                                        liked your photo.
+                                        <span style="color:#bcbcbc;">2 minutes ago</span>
+                                    </span>
+                                </div>
+
+                                <div class="profile2">
+                                    <img src="assets/img/profile.jpg" alt="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="item-menu">
+                                <div style="display: flex; align-items: center;">
+                                    <div class="profile">
+                                        <img src="assets/img/profile.jpg" alt="">
+                                    </div>
+                                    <span>
+                                        <span style="font-weight: bold;">Sim_Ngesi</span>
+                                        liked your photo.
+                                        <span style="color:#bcbcbc;">5 minutes ago</span>
+                                    </span>
+                                </div>
+
+                                <div class="profile2">
+                                    <img src="assets/img/profile.jpg" alt="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="item-menu">
+                                <div style="display: flex; align-items: center;">
+                                    <div class="profile">
+                                        <img src="assets/img/profile.jpg" alt="">
+                                    </div>
+                                    <span>
+                                        <span style="font-weight: bold;">Slomo</span>
+                                        commented on your photo.
+                                        <span style="color:#bcbcbc;">20 minutes ago</span>
+                                    </span>
+                                </div>
+
+                                <div class="profile2">
+                                    <img src="assets/img/profile.jpg" alt="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="item-menu">
+                                <div style="display: flex; align-items: center;">
+                                    <div class="profile">
+                                        <img src="assets/img/profile.jpg" alt="">
+                                    </div>
+                                    <span>
+                                        <span style="font-weight: bold;">Trilok</span>
+                                        commented on your photo.
+                                        <span style="color:#bcbcbc;">25 minutes ago</span>
+                                    </span>
+                                </div>
+
+                                <div class="profile2">
+                                    <img src="assets/img/profile.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item-menu">
+                                <div style="display: flex; align-items: center;">
+                                    <div class="profile">
+                                        <img src="assets/img/profile.jpg" alt="">
+                                    </div>
+                                    <span>
+                                        <span style="font-weight: bold;">Nolwazi</span>
+                                        Liked your photo.
+                                        <span style="color:#bcbcbc;">1 hour ago</span>
+                                    </span>
+                                </div>
+
+                                <div class="profile2">
+                                    <img src="assets/img/profile.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item-menu">
+                                <div style="display: flex; align-items: center;">
+                                    <div class="profile">
+                                        <img src="assets/img/profile.jpg" alt="">
+                                    </div>
+                                    <span>
+                                        <span style="font-weight: bold;">Thembe</span>
+                                        commented on your photo.
+                                        <span style="color:#bcbcbc;">2 hours ago</span>
+                                    </span>
+                                </div>
+
+                                <div class="profile2">
+                                    <img src="assets/img/profile.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="assets/img/profile.jpg" alt="" onclick="menuProfile()">
+                    <!-- last two menu-proflie -->
+                    <div class="menu-profile" id="menu-profile">
+                        <div class="item-menu">
+                            <img src="assets/img/menu-profile/1.png" alt="">
+                            <span>Profile</span>
+                        </div>
+                        <div class="item-menu">
+                            <img src="assets/img/menu-profile/2.png" alt="">
+                            <span>Saved</span>
+                        </div>
+                        <div class="item-menu">
+                            <img src="assets/img/menu-profile/3.png" alt="">
+                            <span>Settings</span>
+                        </div>
+                        <hr>
+                        <div class="item-menu">
+                            <span>More info</span>
+                        </div>
+                        <!-- last three -->
+                        <div id="triangle-up"></div>
+
+                    </div>
+                    <!-- end last two menu-proflie -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- content -->
+    <div class="content">
+        <!-- content-left -->
+        <div class="content-left">
+            <!-- story statuses -->
+            <div class="status-wrapper">
+                <div class="status-card">
+                    <div class="profile-pic"><img src="img/cover 1.png" alt=""></div>
+                    <p class="username">Nikiwe</p>
+                </div>
+                <div class="status-card">
+                    <div class="profile-pic"><img src="img/cover 2.png" alt=""></div>
+                    <p class="username">Pinkie</p>
+                </div>
+                <div class="status-card">
+                    <div class="profile-pic"><img src="img/cover 11.png" alt=""></div>
+                    <p class="username">Sine</p>
+                </div>
+                <div class="status-card">
+                    <div class="profile-pic"><img src="img/cover 4.png" alt=""></div>
+                    <p class="username">Mfana</p>
+                </div>
+                <div class="status-card">
+                    <div class="profile-pic"><img src="img/cover 5.png" alt=""></div>
+                    <p class="username">Mawande</p>
+                </div>
+                <div class="status-card">
+                    <div class="profile-pic"><img src="img/cover 6.png" alt=""></div>
+                    <p class="username">Sim</p>
+                </div>
+                <div class="status-card">
+                    <div class="profile-pic"><img src="img/cover 7.png" alt=""></div>
+                    <p class="username">Mfundo</p>
+                </div>
+            </div>
+            <!-- story ends -->
+
+            <div class="content-akun">
+                <div class="d-flex justify-content-between align-items-center" style="padding: 3px 10px;">
+                    <div class="d-flex align-items-center">
+                        <div class="wrap-img">
+                            <img class="img-circle3" src="img/post/Post 1.jpg" alt="">
+                        </div>
+                        <h3>Nikiwe</h3>
+                    </div>
+                    <img src="assets/img/9.png" alt="">
+                </div>
+                <div class="wrap-v-p">
+                    <img src="img/post/Post 1.jpg" alt="post1" class="post-image">
+                </div>
+
+                <div class="item-akun-bottom">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <img src="assets/img/like.png" alt="">
+                            <img width="37" src="assets/img/comment.png" alt="">
+                            <img width="37" src="assets/img/send.png" alt="">
+                        </div>
+                        <img width="37" src="assets/img/save.png" alt="">
+                    </div>
+                    <p>63,766 likes</p>
+                    <p style="font-weight: bold;">Nikiwe <span style="font-weight: normal;">Mqanduli looking nice.</span>
+                    </p>
+                    <p style="color: #8e8e8e;">view all 579 comments</p>
+                    <p>Pinkie__ <span style="color: #00376b;">@sydneyntantiso</span> </p>
+                    <p>Sine__ <span style="color: #00376b;">@Pinkza</span> </p>
+                    <p>29 minutes ago</p>
+                </div>
+
+                <hr />
+
+                <div class="add-komentar d-flex justify-content-between">
+                    <!-- <h2 style="color: #9f9f9f;">Tambahkan komentar ... abu abu</h2> -->
+                    <input type="text" placeholder="Add a comment">
+                    <h2 class="post-comment">Post</h2>
+                </div>
+
+            </div>
+
+            <div class="content-akun">
+                <div class="d-flex justify-content-between align-items-center" style="padding: 3px 10px;">
+                    <div class="d-flex align-items-center">
+                        <div class="wrap-img">
+                            <img class="img-circle3" src="img/post/Post 2.jpg" alt="">
+                        </div>
+                        <h3>Pinkie</h3>
+                    </div>
+                    <img src="assets/img/9.png" alt="">
+                </div>
+                <div class="wrap-v-p">
+                    <img src="img/post/Post 2.jpg" alt="post1" class="post-image">
+                </div>
+
+                <div class="item-akun-bottom">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <img src="assets/img/like.png" alt="">
+                            <img width="37" src="assets/img/comment.png" alt="">
+                            <img width="37" src="assets/img/send.png" alt="">
+                        </div>
+                        <img width="37" src="assets/img/save.png" alt="">
+                    </div>
+                    <p>39,706 likes</p>
+                    <p style="font-weight: bold;">Pinkie <span style="font-weight: normal;">Farview was nice.</span>
+                    </p>
+                    <p style="color: #8e8e8e;">view all 59 comments</p>
+                    <p>Nikiwe__ <span style="color: #00376b;">@sydneyntantiso</span> </p>
+                    <p>Sine__ <span style="color: #00376b;">@Pinkza</span> </p>
+                    <p>9 minutes ago</p>
+                </div>
+
+                <hr />
+
+                <div class="add-komentar d-flex justify-content-between">
+                    <!-- <h2 style="color: #9f9f9f;">Tambahkan komentar ... abu abu</h2> -->
+                    <input type="text" placeholder="Add a comment">
+                    <h2 class="post-comment">Post</h2>
+                </div>
+
+            </div>
+
+            <div class="content-akun">
+                <div class="d-flex justify-content-between align-items-center" style="padding: 3px 10px;">
+                    <div class="d-flex align-items-center">
+                        <div class="wrap-img">
+                            <img class="img-circle3" src="img/post/Post 3.jpg" alt="">
+                        </div>
+                        <h3>Sine</h3>
+                    </div>
+                    <img src="assets/img/9.png" alt="">
+                </div>
+                <div class="wrap-v-p">
+                    <img src="img/post/Post 3.jpg" alt="post1" class="post-image">
+                </div>
+
+                <div class="item-akun-bottom">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <img src="assets/img/like.png" alt="">
+                            <img width="37" src="assets/img/comment.png" alt="">
+                            <img width="37" src="assets/img/send.png" alt="">
+                        </div>
+                        <img width="37" src="assets/img/save.png" alt="">
+                    </div>
+                    <p>99,706 likes</p>
+                    <p style="font-weight: bold;">Sine <span style="font-weight: normal;"> time to relax.</span>
+                    </p>
+                    <p style="color: #8e8e8e;">view all 159 comments</p>
+                    <p>Nikiwe__ <span style="color: #00376b;">@sydneyntantiso</span> </p>
+                    <p>Sine__ <span style="color: #00376b;">@Pinkza</span> </p>
+                    <p>30 minutes ago</p>
+                </div>
+
+                <hr />
+
+                <div class="add-komentar d-flex justify-content-between">
+                    <!-- <h2 style="color: #9f9f9f;">Tambahkan komentar ... abu abu</h2> -->
+                    <input type="text" placeholder="Add a comment">
+                    <h2 class="post-comment">Post</h2>
+                </div>
+
+            </div>
+
+            <div class="content-akun">
+                <div class="d-flex justify-content-between align-items-center" style="padding: 3px 10px;">
+                    <div class="d-flex align-items-center">
+                        <div class="wrap-img">
+                            <img class="img-circle3" src="img/post/Post 4.jpg" alt="">
+                        </div>
+                        <h3>Mawande</h3>
+                    </div>
+                    <img src="assets/img/9.png" alt="">
+                </div>
+                <div class="wrap-v-p">
+                    <img src="img/post/Post 4.jpg" alt="post1" class="post-image">
+                </div>
+
+                <div class="item-akun-bottom">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <img src="assets/img/like.png" alt="">
+                            <img width="37" src="assets/img/comment.png" alt="">
+                            <img width="37" src="assets/img/send.png" alt="">
+                        </div>
+                        <img width="37" src="assets/img/save.png" alt="">
+                    </div>
+                    <p>39,706 likes</p>
+                    <p style="font-weight: bold;">Mawande <span style="font-weight: normal;"> How beautiful.</span>
+                    </p>
+                    <p style="color: #8e8e8e;">view all 39 comments</p>
+                    <p>Nikiwe__ <span style="color: #00376b;">@sydneyntantiso</span> </p>
+                    <p>Sine__ <span style="color: #00376b;">@Pinkza</span> </p>
+                    <p>59 minutes ago</p>
+                </div>
+
+                <hr />
+
+                <div class="add-komentar d-flex justify-content-between">
+                    <!-- <h2 style="color: #9f9f9f;">Tambahkan komentar ... abu abu</h2> -->
+                    <input type="text" placeholder="Add a comment">
+                    <h2 class="post-comment">Post</h2>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- content-right -->
+        <div class="content-right">
+            <div class="d-flex align-items-center">
+                <img class="img-circle" src="img/profile-pic.jpg" alt="">
+                <div>
+                    <h3>Sine_Ntantiso</h3>
+                    <h3 class="tx-grey f-w-500">sydneyntantiso</h3>
+                </div>
+                <button class="action-btn">Switch</button>
+            </div>
+            <div class="d-flex justify-content-between" style="margin-top: 28px;
+              margin-bottom: 20px;">
+                <h3 class="tx-grey">suggestions for you</h3>
+                <h4 class="tx-grey1">Follow all</h4>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <img class="img-circle2" src="assets/img/content/2.jpg" alt="">
+                    <div>
+                        <h4>Mawande_</h4>
+                        <h4 class="tx-grey f-w-500">Followed bu user</h4>
+                    </div>
+                </div>
+                <h4 class="tx-blue">Follow</h4>
+            </div>
+            <div class="d-flex align-items-center justify-content-between" style="margin: 17px 0px;">
+                <div class="d-flex align-items-center">
+                    <img class="img-circle2" src="assets/img/content/4.jpg" alt="">
+                    <div>
+                        <h4>Mthandeni</h4>
+                        <h4 class="tx-grey f-w-500">Followed by Sine +26 others</h4>
+                    </div>
+                </div>
+                <h4 class="tx-blue">Follow</h4>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between" style="margin: 17px 0px;">
+                <div class="d-flex align-items-center">
+                    <img class="img-circle2" src="assets/img/content/4.jpg" alt="">
+                    <div>
+                        <h4>Moses</h4>
+                        <h4 class="tx-grey f-w-500">Followed by Mfundo +6 others</h4>
+                    </div>
+                </div>
+                <h4 class="tx-blue">Follow</h4>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between" style="margin: 17px 0px;">
+                <div class="d-flex align-items-center">
+                    <img class="img-circle2" src="assets/img/content/4.jpg" alt="">
+                    <div>
+                        <h4>Simlindile</h4>
+                        <h4 class="tx-grey f-w-500">suggested for you</h4>
+                    </div>
+                </div>
+                <h4 class="tx-blue">Follow</h4>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between" style="margin: 17px 0px;">
+                <div class="d-flex align-items-center">
+                    <img class="img-circle2" src="assets/img/content/4.jpg" alt="">
+                    <div>
+                        <h4>Ntombi</h4>
+                        <h4 class="tx-grey f-w-500">suggested for you</h4>
+                    </div>
+                </div>
+                <h4 class="tx-blue">Follow</h4>
+            </div>
+
+            <div class="align-items-center">
+                <h5 class="f-w-500">English &bull; IsiXhosa &bull; IsiZulu &bull; SeSotho &bull; Swati &bull; Afrikaans
+                    &bull;
+                </h5>
+               
+                <h5 class="f-w-500" style="margin-top: 30px;">&copy; 2022 INSTAGRAM FROM META
+                </h5>
+
+                <h5>Clone created by 
+                    <a href="https://sinentantiso.github.io/" target="_blank">Ntantiso Sinethemba</a>
+                </h5>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- slick script link -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script>
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 1
+        });
+    </script>
+
+    <!-- end slick script link -->
+
+    <script src="assets/js/showbar.js"></script>
+    <script src="assets/js/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
